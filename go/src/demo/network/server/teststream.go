@@ -10,6 +10,9 @@ type testHeadFormat struct {
 	headSize uint32
 }
 
+
+//草泥马
+
 func (p *testHeadFormat) HeadLen() uint32 {
 	return p.headSize
 }
